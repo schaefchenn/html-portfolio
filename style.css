@@ -4,8 +4,7 @@ html {
 
 img {
     border: solid white 5px;
-    width: 100%
-
+    width: 100%;
 }
 
 #div {
@@ -20,6 +19,8 @@ img {
 
 .image-container {
     margin: 30px;
+    width: 95%;
+    max-width: 1200px;
 }
 
 .text {
@@ -51,11 +52,15 @@ h1 {
         margin-top: 6px;
         font-size: 0.6rem;
     }
+
+    img {
+        width: 100%
+    }
     
 
     .image-container {
         display: flex;
         justify-content: center;
-        margin: 10px;
+        max-width: 95%;
     }
 }
