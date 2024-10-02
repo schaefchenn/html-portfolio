@@ -4,19 +4,43 @@ html {
 
 img {
     border: solid white 5px;
-    width: 100%;
+    width: 60%;
 }
 
 #div {
     color: white;
-    text-align: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
     font-family: "Libre Baskerville", serif;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 430px;
+}
+
+.text {
+    margin-top: 50px;
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 3rem;
+    margin: 0;
 }
+
+@media (max-width: 430px) {
+   #div {
+    width: 100%M
+   }
+
+   img {
+    width: 90%
+   }
+
+   h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0;
+}
+  }
